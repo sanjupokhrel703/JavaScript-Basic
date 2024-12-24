@@ -20,7 +20,7 @@ addTaskBtn.addEventListener("click", () => {
   //   console.log(taskInput.value);
 
   const taskListItem = document.createElement("li");
-  taskListItem.innerText = taskInput.value;
+  taskListItem.innerHTML = `<b>${taskInput.value}</b>`;
 
   taskListItem.style.textTransform = "capitalize";
   taskListItem.style.color = "green";
