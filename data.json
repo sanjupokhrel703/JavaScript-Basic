@@ -1,0 +1,6 @@
+[
+  { "name": "ram", "surname": "nepal" },
+  { "name": "mohan", "surname": "acharya" },
+  { "name": "sita", "surname": "kc" },
+  { "name": "sita", "surname": "kc", "isFemale": true, "age": 20 }
+]
